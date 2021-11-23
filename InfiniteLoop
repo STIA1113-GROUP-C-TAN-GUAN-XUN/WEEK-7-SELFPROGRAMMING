@@ -1,0 +1,17 @@
+package selfProgramming;
+
+public class InfiniteLoop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int product=0;
+		
+		for(product=0;product<10;) {
+			product*=2;
+			System.out.println(product);
+		}
+		//if condition always true,then the loops will keep execute
+		//beware of run this kind of code, can terminate
+	}
+
+}
