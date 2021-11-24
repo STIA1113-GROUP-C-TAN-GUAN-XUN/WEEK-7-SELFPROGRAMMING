@@ -1,0 +1,41 @@
+package repetitionAndSelection2;
+
+import java.util.Scanner;
+
+public class charLoop {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		char yes='y', no='n',x;
+
+       /** System.out.print("Enter yes or no: ");
+        x = sc.next().charAt(0);
+        while (x != 'N')
+        {
+            System.out.println("INSIDE LOOPING");
+            System.out.print("Enter yes or no: ");
+            x = sc.next().charAt(0);
+        }
+        
+        System.out.println("Sentinel value detected. Good Bye. ");
+    */
+
+		
+		
+		do {
+			System.out.println("Please enter yes or no: ");
+			x=sc.next().charAt(0);
+			if(x==yes) {
+				System.out.println("INSIDE LOOPING");
+			}
+			
+		}while (x!=no);
+		
+		System.out.println("Sentinel value detected. Good Bye. ");
+		
+		sc.close();
+	}
+
+}
