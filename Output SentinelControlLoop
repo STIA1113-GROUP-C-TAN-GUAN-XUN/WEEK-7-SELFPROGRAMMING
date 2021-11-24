@@ -1,0 +1,23 @@
+Enter an Integer, or -1 to stop: 
+1
+Inside Looping
+1
+Enter an Integer, or -1 to stop: 
+11
+Inside Looping
+11
+Enter an Integer, or -1 to stop: 
+23
+Inside Looping
+23
+Enter an Integer, or -1 to stop: 
+5
+Inside Looping
+5
+Enter an Integer, or -1 to stop: 
+7
+Inside Looping
+7
+Enter an Integer, or -1 to stop: 
+-1
+Sentinel value detected. Good Bye.
